@@ -1,0 +1,36 @@
+{
+  "name": "react-race-chart",
+  "version": "1.0.1",
+  "description": "plot graph dynamically",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
+  },
+  "keywords": [
+    "bar-charts",
+    "race-bar-chart",
+    "visualization",
+    "react-charts"
+  ],
+  "peerDependencies": {
+    "react": "^16.10.2",
+    "react-transition-group": "^4.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-plugin-css-modules-transform": "^1.6.2",
+    "babel-plugin-react-css-modules": "^5.2.6",
+    "react": "^16.10.2",
+    "react-transition-group": "^4.3.0"
+  },
+  "author": "Abhishek Kumar",
+  "license": "ISC",
+  "files": [
+    "dist/*"
+  ]
+}
