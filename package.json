@@ -1,6 +1,6 @@
 {
   "name": "react-race-chart",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "plot graph dynamically",
   "main": "dist/index.js",
   "scripts": {
