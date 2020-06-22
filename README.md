@@ -1,6 +1,6 @@
 # react-race-chart
 
-> 📊 Seamless & fully customizable bar chart for React.
+Seamless & fully customizable bar chart for React.The result of bar chart is already sorted in descending order so you don't need to write extra code for that purpose.
 
 <br>
 

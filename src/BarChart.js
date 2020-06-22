@@ -74,22 +74,13 @@ class BarChart extends React.Component {
       };
     });
     // Handle the sorting based on the values
-    toSort.sort((left, right) => left.val - right.val)
-    if (descending) {
-      toSort.reverse()
-    }
-    // Slice based on the maximum items allowed
-    const fItems = Object.keys(this.props.data).length
-    if (this.maxItems && this.maxItems <= fItems) {
-      toSort = toSort.slice(0, this.maxItems)
-    }
-
-    const maxVal = Math.max.apply(Math, toSort.map(item => item.val))
-    // Sorted list of results based on the axis
+    toSort.sort((left, right) => descending ? left.val < right.val ? 1: left.val > right.val ? -1 : 0  : left.val < right.val ? 1 : left.val < right.val ? -1 : 0);
+    toSort = toSort.slice(0, this.maxItems);
+    const maxVal = Math.max.apply(Math, toSort.map(item => item.val));
     return [toSort.reduce((ret, item, idx) => ({
-      ...ret, ...{ [item.name]: idx }
-    }), {}), maxVal]
-  }
+      ...ret, ...{[item.name]: idx}
+    }), {}), maxVal];
+}
 
     getInfoFromRank(name){
       const currIdx = this.state.idx;

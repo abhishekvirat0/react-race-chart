@@ -1,6 +1,6 @@
 {
   "name": "react-race-chart",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "plot graph dynamically",
   "main": "dist/index.js",
   "scripts": {
@@ -18,15 +18,15 @@
     "react-transition-group": "^4.3.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.6.4",
-    "@babel/core": "^7.6.4",
-    "@babel/plugin-proposal-class-properties": "^7.5.5",
-    "@babel/preset-env": "^7.6.3",
-    "@babel/preset-react": "^7.6.3",
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
     "babel-plugin-css-modules-transform": "^1.6.2",
     "babel-plugin-react-css-modules": "^5.2.6",
-    "react": "^16.10.2",
-    "react-transition-group": "^4.3.0"
+    "react": "^16.13.1",
+    "react-transition-group": "^4.4.1"
   },
   "author": "Abhishek Kumar",
   "license": "ISC",
